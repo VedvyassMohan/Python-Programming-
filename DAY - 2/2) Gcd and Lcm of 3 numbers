@@ -1,0 +1,16 @@
+CODES:
+import math
+a=12
+b=18
+c=24
+x=math.gcd(a,b)
+gcd_abc=math.gcd(x,c)
+y=math.lcm(a,b)
+lcm_abc=math.lcm(y,c)
+print("The GCD is:",gcd_abc)
+print("The LCM is:",lcm_abc)
+
+
+OUTPUT:
+The GCD is 6
+The LCM is 72
