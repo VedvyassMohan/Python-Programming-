@@ -1,0 +1,25 @@
+CODES:
+sentence = input("Enter a sentence: ")
+uppercase_sentence = sentence.upper()
+lowercase_sentence = sentence.lower()
+convert_sentence = sentence.swapcase()
+words = sentence.split()
+num_words = len(words)
+words_starting_with_a = 0
+for word in words:
+   if len(word)>0 and word[0]=='A' or word[0]=='a':
+      words_starting_with_a += 1
+print("Uppercase:", uppercase_sentence)
+print("Lowercase:", lowercase_sentence)
+print("Converted:", converted_sentence)
+print("Number of words:", num_words)
+print("Number of words starting with 'A':", words_starting_with_a)
+
+
+OUTPUT:
+Enter a sentence: Apple and banana are amazing fruits
+Uppercase: APPLE AND BANANA ARE AMAZING FRUITS
+Lowercase: apple and banana are amazing fruits
+Converted: aPPLE AND BANANA ARE AMAZING FRUITS
+Number of words: 5
+Number of words starting with 'A': 3
