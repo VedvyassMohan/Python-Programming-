@@ -1,0 +1,14 @@
+CODES:
+num = int(input("Enter a non-negative integer: "))
+lsd = num % 10
+while num >= 10:
+    num //= 10
+msd = num
+print("Most Significant Digit (MSD):", msd)
+print("Least Significant Digit (LSD):", lsd)
+
+
+OUTPUT:
+Enter a non-negative integer: 54321
+Most Significant Digit (MSD): 5
+Least Significant Digit (LSD): 1
