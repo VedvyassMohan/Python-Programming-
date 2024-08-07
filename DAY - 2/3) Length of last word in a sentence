@@ -1,0 +1,11 @@
+CODES:
+sen=input("Enter a sentence:")
+w=sen.split()
+l=w[-1]
+length=len(l)
+print("The length of the last word is ",length)
+
+
+OUTPUT:
+Enter a sentence: Hello world
+The length of last word is 5
