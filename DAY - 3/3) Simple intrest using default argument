@@ -1,0 +1,9 @@
+CODES:
+def sim(p=8, t=6, r=8):
+    si = (p * r * t) / 100
+    print("Simple interest:", si)
+sim()
+
+
+OUTPUT:
+Simple interest: 3.84
