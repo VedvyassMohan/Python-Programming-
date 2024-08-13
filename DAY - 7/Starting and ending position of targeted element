@@ -1,0 +1,12 @@
+def find_positions(lst, element):
+    start = lst.index(element)
+    end = len(lst) - 1 - lst[::-1].index(element)
+    return start, end
+lst = [1, 2, 3, 4, 2, 5, 2, 6]
+element = 2
+start, end = find_positions(lst, element)
+print(f"Starting position: {start}")
+print(f"Ending position: {end}")
+Output:
+Starting position: 1
+Ending position: 6
