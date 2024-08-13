@@ -1,0 +1,10 @@
+from collections import Counter
+my_list = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+frequency = Counter(my_list)
+for i in frequency:
+    print(i,"occurs",frequency[i],"Times")
+Output:
+1 occurs 1 Times
+2 occurs 2 Times
+3 occurs 3 Times
+4 occurs 4 Times
