@@ -1,0 +1,13 @@
+sequence = [6, 6, 12, 18, 30]
+flag = 0
+for i in range(2, len(sequence)):
+    if sequence[i] != sequence[i - 1] + sequence[i - 2]:
+        flag = 1
+        break
+if flag == 0:
+    print("It is a Additive Sequence.")
+else:
+    print("It is not a Additive Sequence.")
+
+OUTPUT:
+It is a Additive Sequence.
