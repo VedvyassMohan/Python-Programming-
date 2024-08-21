@@ -1,0 +1,9 @@
+sentence = "Call Of Duty"
+width = 80
+center_aligned = sentence.center(width)
+print("Center Alignment:")
+print(center_aligned)
+
+OUTPUT:
+Center Alignment:
+                                  Call Of Duty               
