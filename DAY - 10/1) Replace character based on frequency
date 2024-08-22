@@ -1,0 +1,14 @@
+from collections import Counter
+s = "example"
+frequency = Counter(s)
+transform = ''
+for char in s:
+    freq = frequency[char]
+    new_char = chr(((ord(char) - ord('a') + freq) % 26) + ord('a'))
+    transform += new_char
+print("Original string:", s)
+print("Transformed string:", transform)
+
+ OUTPUT:
+ Original string: example
+Transformed string: gybnqmg
