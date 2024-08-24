@@ -1,0 +1,13 @@
+list = [10,22,9,33,41,50,41,60]
+count = 0
+li=[]
+for i in range(0,len(list)-1):
+    if(list[i]<list[i+1]):
+        count+=1
+    else:
+        li.append(count)
+        count = 0
+print(max(li)+1)
+
+Output:
+4
