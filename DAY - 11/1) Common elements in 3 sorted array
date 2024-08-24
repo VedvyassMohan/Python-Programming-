@@ -1,0 +1,10 @@
+s1=[1,2,4,7,3,5]
+s2=[2,5,9,7,8,3]
+s3=[6,7,4,2,8,3]
+s1.sort()
+s2.sort()
+s3.sort()
+b=list(set(s1).intersection(set(s2)).intersection(set(s3)))
+print(b)
+Output:
+[2, 3, 7]
